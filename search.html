@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Home &mdash; solos的网络日志</title><meta name="description" content="">
+        <title>Search &mdash; solos的网络日志</title><meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
 
@@ -18,7 +18,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="_static/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="_static/plugins.js"></script>
-        <script src="_static/main.js"></script><link rel="top" title="solos的网络日志" href="#" /><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.html" /><script type="text/javascript">
+        <script src="_static/main.js"></script><link rel="top" title="solos的网络日志" href="index.html" /><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.html" /><script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '#',
         VERSION:     '1.0.2',
@@ -26,7 +26,10 @@
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
       };
-    </script><script type="text/javascript" src="_static/underscore.js"></script><script type="text/javascript" src="_static/doctools.js"></script><script type="text/javascript" src="_static/disqus.js"></script>
+    </script><script type="text/javascript" src="_static/underscore.js"></script><script type="text/javascript" src="_static/doctools.js"></script><script type="text/javascript" src="_static/disqus.js"></script><script type="text/javascript" src="_static/searchtools.js"></script><script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -53,7 +56,7 @@
 
       <div id="container"><header>
             <hgroup>
-              <h1><a href="#">solos的网络日志</a></h1>
+              <h1><a href="index.html">solos的网络日志</a></h1>
               <h2>linux, python</h2>
             </hgroup>
           </header>
@@ -61,29 +64,26 @@
             <ul><li class="quicklink"><div class="rss">
         <a href="rss.html" title="Subscribe via RSS"><span class="webfont">B</span></a>
     </div></li><li class="main-nav">
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
               </li>
               </ul>
-          </nav><div class="main-container"><div class="main wrapper clearfix"><article><div class="timestamp postmeta">
-            <span>一月 08, 2013</span>
-        </div>
-        <div class="section" id="hello-world">
-<h1><a href="2013/01/08/hello_world_.html">Hello World!</a></h1>
-</div>
-        <div class="postmeta">
-        <div class="author">
-            <span>Posted by solos</span>
-        </div>
-        
-        
-        <div class="comments">
-            <a href="http://127.0.0.1/blog/html/2013/01/08/hello_world_.html#disqus_thread" data-disqus-identifier="2013/01/08/hello_world_">Leave a comment</a>
-        </div>
-    </div><div class="archive_link">
-        <a href="archive.html"> &mdash;  Blog Archive  &mdash; </a>
-    </div></article><aside class="sidebar"><section><div class="widget" id="searchbox">
+          </nav><div class="main-container"><div class="main wrapper clearfix"><article><h1 id="search-documentation">Search</h1>
+  <div id="fallback" class="admonition warning">
+  <script type="text/javascript">$('#fallback').hide();</script>
+  <p>Please activate JavaScript to enable the search
+    functionality.</p>
+  </div>
+  <p>From here you can search these documents. Enter your search
+    words into the box below and click "search". Note that the search
+    function will automatically search for all of the words. Pages
+    containing fewer words won't appear in the result list.</p>
+  <form action="" method="get">
+    <input type="text" name="q" value="" />
+    <input type="submit" value="search" />
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form><div id="search-results"></div></article><aside class="sidebar"><section><div class="widget" id="searchbox">
     <h1>Search</h1>
-    <form action="search.html" method="get">
+    <form action="#" method="get">
         <input type="text" name="q" />
         <button type="submit"><span class="webfont">L</span></button>
     </form>
